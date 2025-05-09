@@ -38,11 +38,31 @@ samanainn-chatbot-api/
 ├── .env                    # Variables de entorno
 ├── package.json            # Dependencias y scripts
 └── README.md               # Documentación
-└── frontend/        # Frontend (Vue.js)
-    ├── src/
-    │   ├── assets/
-    │   ├── components/
-    │   └── App.vue
-    ├── public/
-    └── package.json
+├── frontend/
+│   ├── public/
+│   │   └── assets/
+│   │       └── images/
+│   │           ├── banner_general.jpg
+│   │           ├── banner_accommodation.jpg
+│   │           └── (otros banners)
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ChatBox.vue
+│   │   │   ├── DynamicBanner.vue
+│   │   │   └── ResultsDisplay.vue
+│   │   ├── services/
+│   │   │   ├── chatService.js
+│   │   │   ├── bannerService.js
+│   │   │   └── bookingService.js
+│   │   ├── store/
+│   │   │   ├── index.js
+│   │   │   ├── chat.js
+│   │   │   └── bookings.js
+│   │   ├── views/
+│   │   │   ├── HomePage.vue
+│   │   │   └── ResultsPage.vue
+│   │   ├── App.vue
+│   │   └── main.js
+│   ├── package.json        
+│   └── vue.config.js
 ```

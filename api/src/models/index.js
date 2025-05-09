@@ -1,5 +1,5 @@
 // src/models/index.js
-const conversation = require('./conversation');
+const conversation = require('./conversationv1');
 const booking = require('./booking');
 const content = require('./content');
 
