@@ -1,0 +1,29 @@
+{
+    "name": "samanainn-chatbot-api",
+    "version": "1.0.0",
+    "description": "API para el chat inteligente de SamanaInn",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "dev": "nodemon src/app.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "morgan": "^1.10.0",
+        "mysql2": "^3.1.2"
+    },
+    "devDependencies": {
+        "jest": "^29.4.3",
+        "nodemon": "^2.0.20",
+        "supertest": "^6.3.3"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "author": "SamanaInn",
+    "license": "UNLICENSED",
+    "private": true
+}
